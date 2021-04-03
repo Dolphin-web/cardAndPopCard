@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url(https://allfont.ru/allfont.css?fonts=sansation-regular);
+
+*{
+	margin: 0;
+}
+body{
+	background-color: black;
+}
+.popCard{
+	height: 420px;
+	width: 300px;
+	background-color: white;
+}
+.popCardImg{
+	height: 200px;
+	width: 300px;
+}
+.popCardInfo{
+	margin: 0 26px;
+}
+.popCardName{
+	font-size: 24px;
+	padding-top: 14px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+.popCardCheck{
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	color: #808080;
+}
+.popCardOldPrice{
+	font-size: 18px;
+	text-align: right;
+	text-decoration: line-through;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #808080;
+}
+.popCardNewPrice{
+	font-size: 43px;
+	text-align: right;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #EA8C64;
+}
+.popCardBuyOrCart{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 17px;
+}
+.popCardBuy{
+	font-size: 18px;
+	width: 150px; 
+	font-family: 'Sansation Regular', arial;
+	background-color: white;
+	border: 1px solid #FE6700;
+}

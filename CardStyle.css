@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url(https://allfont.ru/allfont.css?fonts=sansation-regular);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+}
+body{
+	background-color: black;
+}
+.Card{
+	height: 380px;
+	width: 225px;
+	background-color: white;
+	border-radius:0 0 10px 10px;
+}
+.CardImg{
+	height: 200px;
+	width: 225px;
+}
+.CardInfo{
+	margin: 0 16px;
+}
+.CardName{
+	font-size: 18px;
+	padding-top: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.CardCheck{
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	color: #808080;
+}
+.CardPrice{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 18px;
+	font-weight: 500;
+	color: #808080;
+}
+.CardBuyOrCart{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.CardBuy{
+	font-size: 18px;
+	width: 150px; 
+	font-family: 'Sansation Regular', arial;
+	background-color: white;
+	border: 1px solid #FE6700;
+}
